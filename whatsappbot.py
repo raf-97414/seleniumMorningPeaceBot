@@ -29,7 +29,7 @@ def good_morning(driver, phone_no, message): #the actual action takes place here
    print("Message successfully sent !!") #helps you determine if your messsage is sent
 
 if __name__=='__main__':
-   julie_phone = "+1111111111" #because Julie's cause drama no offence edit the phone number to the one that belongs to the drama bomb dropper of your life
+   julie_phone = "+1111111111" #because Julies cause drama no offence edit the phone number to the one that belongs to the drama bomb dropper of your life
    #For your
    driver_me = setup_driver() #opens up a chrome webdriver for you
    input("Scan QR code then press Enter") #waits till you log in by scanning qr code and once done you'll have to press enter
