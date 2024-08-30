@@ -33,4 +33,4 @@ crontab -e
 ```
 ##### /usr/bin/python3 - path to your interpreter that you used to execute the script in the code editor 
 ##### >> /home/user/cron.log 2>&1 - helps you log standard output and error to cron.log 
-### After adding your cron job, save the file and exit the editor:
+##### After adding your cron job, save the file and exit the editor:
