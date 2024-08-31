@@ -29,12 +29,13 @@ def good_morning(driver, phone_no, message): #the actual action takes place here
    #print("Message successfully sent !!") #helps you determine if your messsage is sent
 
 if __name__=='__main__':
-   julie_phone = "+974 5552 9147" #because Julie's cause drama no offence edit the phone number to the one that belongs to the drama bomb dropper of your life
-   #For you
+   julie_phone = "+91 98865 13772" #because Julie's cause drama no offence edit the phone number to the one that belongs to the drama bomb dropper of your life
+   #For your
    driver_me = setup_driver() #opens up a chrome webdriver for you
    time.sleep(20)
    #input("Scan QR code then press Enter") #waits till you log in by scanning qr code and once done you'll have to press enter
-   good_morning(driver_me,julie_phone,"Good Morning Dad :)") #let the code do the rest ..... edit the message
+   good_morning(driver_me,julie_phone,"Test") #let the code do the rest ..... edit the message
+   #time.sleep(20)
    driver_me.quit()
    #For GSD
    #To save your friend's or sibling's life too if sending to the same person
@@ -42,14 +43,11 @@ if __name__=='__main__':
    #julie_phone2 = "+1111111111"
    driver_GSD = setup_driver()
    time.sleep(20)
-   #input("Scan QR code then press Enter")
    good_morning(driver_GSD,julie_phone,"Good Morning :)")
+   #time.sleep(20)
    driver_GSD.quit()
 
 #/Library/Frameworks/Python.framework/Versions/3.10/bin/python3
 #0 10 * * * /Library/Frameworks/Python.framework/Versions/3.10/bin/python3 /Users/rafeliafernandes/Desktop/botproj/whatsappbot.py
-
-
-
 
 
