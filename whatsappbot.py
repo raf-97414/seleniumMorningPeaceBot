@@ -29,7 +29,7 @@ def good_morning(driver, phone_no, message): #the actual action takes place here
    #print("Message successfully sent !!") #helps you determine if your messsage is sent
 
 if __name__=='__main__':
-   julie_phone = "+974 5552 9147" #because Julie's cause drama no offence edit the phone number to the one that belongs to the drama bomb dropper of your life
+   julie_phone = "+11111111" #because Julie's cause drama no offence edit the phone number to the one that belongs to the drama bomb dropper of your life
    #For you
    driver_me = setup_driver() #opens up a chrome webdriver for you
    time.sleep(20)
