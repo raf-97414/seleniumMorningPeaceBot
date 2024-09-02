@@ -18,7 +18,7 @@ crontab -e
 ```
 ##### To send the message at 10:00 AM every day, add the following line to your crontab:
 ```bash
-0 10 * * * /usr/bin/python3 /path/to/your/script.py >> /home/user/cron.log 2>&1
+0 10 * * * /usr/bin/python3 /path/to/your/script.py
 ```
 ##### Overview of setting up a cron job 
 ```bash
@@ -32,5 +32,4 @@ crontab -e
 +------------- Minute (0 - 59)
 ```
 ##### /usr/bin/python3 - path to your interpreter that you used to execute the script in the code editor 
-##### >> /home/user/cron.log 2>&1 - helps you log standard output and error to cron.log 
 ##### After adding your cron job, save the file and exit the editor
